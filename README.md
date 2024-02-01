@@ -1,15 +1,15 @@
-# Парсер метаинформации в формате ID3v2.4 из mp3 файлов.
+# ID3v2.4 meta information parser from mp3 files.
 
 ## INFO
 
-Консольное приложение для отображения метаинформации в формате ID3v2.4 из mp3-файлов.
+Console application for displaying ID3v2.4 meta information from mp3 files.
 
 ## Usage
-Путь к mp3 ID3v2.4 передается как аргумент командной строки
+The path to the ID3v2.4 mp3 is passed as a command line argument
 
 ## ID3v2.4
 
-Детальную спецификацию о структуре ID3v2.4 можно найти в [документации](docs/id3v2.4.0-structure.rst)
-Различная по смыслу информации (название, артист, жанр и тд) хранятся в различных фреймах. Список возможных фреймов можно также найти в [документации](docs/id3v2.4.0-frames.rst)
+A detailed specification about the ID3v2.4 structure can be found in [documentation](docs/id3v2.4.0-structure.rst)
+Different meaningful information (title, artist, genre, etc) are stored in different frames. A list of possible frames can also be found in [documentation](docs/id3v2.4.0-frames.rst)
 
-[Оригинальная документация](https://mutagen-specs.readthedocs.io/en/latest/id3/index.html)
+[Original documentation](https://mutagen-specs.readthedocs.io/en/latest/id3/index.html)
